@@ -9,12 +9,12 @@ Cross-Platform Stack Discovery: Supports automatic stack boundary detection for 
 Zero-Dependency: Built using only standard C libraries and platform-specific headers.
 
 ## 🛠 Project Structure
-.
-├── src/
-│   ├── gc.c       # Implementation of marking, sweeping, and stack walking
-│   └── gc.h       # Public API and Header struct definition
-└── test/
-    └── main.c     # Test suite and usage examples
+### .
+### ├── src/
+### │   ├── gc.c       # Implementation of marking, sweeping, and stack walking
+### │   └── gc.h       # Public API and Header struct definition
+### └── test/
+    ### └── main.c     # Test suite and usage examples
 
 ## 🔨 Compilation
 To compile the project, use the following command from the root directory:
