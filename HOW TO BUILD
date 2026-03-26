@@ -1,0 +1,16 @@
+# How to Build
+gcc <source_files> <main_file> -I <include_path> -o <output_name> [flags]
+
+<source_files>: Paths to your implementation files (e.g., src/gc.c).
+
+<main_file>: Path to your entry point (e.g., test/main.c).
+
+-I <include_path>: Directory containing your header files (e.g., -I src).
+
+[flags]: Crucial flags for this project:
+
+-O0: Disables optimization to ensure pointers aren't "optimized away" into registers.
+
+-g: Includes debug symbols for stack walking analysis.
+
+-Wall -Wextra: Enables all compiler warnings for safer pointer math.
